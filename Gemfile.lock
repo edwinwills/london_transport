@@ -36,9 +36,9 @@ PLATFORMS
 
 DEPENDENCIES
   london_transport!
-  rspec
-  vcr
-  webmock
+  rspec (~> 3.2)
+  vcr (~> 2)
+  webmock (~> 1)
 
 BUNDLED WITH
    1.10.6

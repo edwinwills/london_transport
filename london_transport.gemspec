@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
 
   s.add_dependency "oj", "~> 2"
-  s.add_development_dependency "rspec"
-  s.add_development_dependency "webmock"
-  s.add_development_dependency "vcr"
+  s.add_development_dependency "rspec", "~> 3.2"
+  s.add_development_dependency "webmock", "~> 1"
+  s.add_development_dependency "vcr", "~> 2"
 end
