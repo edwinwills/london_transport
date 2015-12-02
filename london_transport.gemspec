@@ -6,9 +6,10 @@ Gem::Specification.new do |s|
   s.description = "Wrapper for the TFL API"
   s.authors     = ["Edwin Wills"]
   s.email       = 'edwin@edwinwills.com'
-  s.files       = ["lib/london_transport.rb"]
   s.homepage    = 'http://rubygems.org/gems/london_transport'
   s.license     = 'MIT'
+
+  s.files       = Dir["{lib}/**/*", "*.md"]
 
   s.add_dependency "oj", "~> 2"
   s.add_development_dependency "rspec", "~> 3.2"
