@@ -7,7 +7,7 @@ RSpec.describe LondonTransport::Bus do
     it 'returns oxford circus / harewood place' do
       VCR.use_cassette("bus/stations") do
         expect(subject.stations[0]).to eq({
-          'Oxford Circus Station  / Harewood Place' => BigDecimal.new('18.481034966430158')
+          'Oxford Circus Station  / Harewood Place' => 18.48103496643016
         })
       end
     end
@@ -15,7 +15,7 @@ RSpec.describe LondonTransport::Bus do
     it 'returns oxford circus station' do
       VCR.use_cassette("bus/stations") do
         expect(subject.stations[1]).to eq({
-          'Oxford Circus Station' => BigDecimal.new('40.335619404365254')
+          'Oxford Circus Station' => 40.335619404365254
         })
       end
     end
@@ -23,7 +23,7 @@ RSpec.describe LondonTransport::Bus do
     it 'returns oxford circus' do
       VCR.use_cassette("bus/stations") do
         expect(subject.stations[2]).to eq({
-          'Oxford Circus' => BigDecimal.new('63.475848157957415')
+          'Oxford Circus' => 63.475848157957415
         })
       end
     end

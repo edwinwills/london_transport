@@ -7,7 +7,7 @@ RSpec.describe LondonTransport::Tube do
     it 'returns oxford circus' do
       VCR.use_cassette("tube/stations") do
         expect(subject.stations[0]).to eq({
-          'Oxford Circus Underground Station' => BigDecimal.new('147.70533261648208')
+          'Oxford Circus Underground Station' => 147.70533261648208
         })
       end
     end
@@ -15,7 +15,7 @@ RSpec.describe LondonTransport::Tube do
     it 'returns bond street' do
       VCR.use_cassette("tube/stations") do
         expect(subject.stations[1]).to eq({
-          'Bond Street Underground Station' => BigDecimal.new('403.48258984823457')
+          'Bond Street Underground Station' => 403.48258984823457
         })
       end
     end
