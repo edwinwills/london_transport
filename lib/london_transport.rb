@@ -1,23 +1,6 @@
 module LondonTransport
-  @@app_key = nil
-  @@app_id = nil
-
   class << self
-    def app_key
-      @@app_key
-    end
-
-    def app_key=(key)
-      @@app_key = key
-    end
-
-    def app_id
-      @@app_id
-    end
-
-    def app_id=(id)
-      @@app_id = id
-    end
+    attr_accessor :app_id, :app_key
   end
 end
 
