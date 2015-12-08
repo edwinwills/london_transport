@@ -20,8 +20,6 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Accept-Ranges:
-      - bytes
       Access-Control-Allow-Headers:
       - Content-Type
       Access-Control-Allow-Methods:
@@ -29,7 +27,7 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Age:
-      - '14383'
+      - '0'
       Api-Entity-Payload:
       - StopPoint
       Cache-Control:
@@ -37,7 +35,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Wed, 02 Dec 2015 22:33:40 GMT
+      - Tue, 08 Dec 2015 13:58:48 GMT
       Server:
       - Microsoft-IIS/8.5
       Via:
@@ -51,9 +49,7 @@ http_interactions:
       X-Banning:
       - ''
       X-Cache:
-      - HIT
-      X-Cache-Hits:
-      - '4'
+      - MISS
       X-Cacheable:
       - Yes. Cacheable
       X-Hash-Url:
@@ -63,10 +59,10 @@ http_interactions:
       X-Ttl-Rule:
       - '0'
       X-Varnish:
-      - 10.75.2.216
-      - 339446170 334019013
+      - 10.75.3.51
+      - '1145426825'
       Content-Length:
-      - '2522'
+      - '2494'
       Connection:
       - keep-alive
     body:
@@ -105,32 +101,33 @@ http_interactions:
         Tfl.Api.Presentation.Entities","modeName":"bus","lineIdentifier":["12","13","137","159","189","23","55","6","88","94","c2","n109","n113","n13","n136","n137","n18","n3","n55"]},{"$type":"Tfl.Api.Presentation.Entities.LineModeGroup,
         Tfl.Api.Presentation.Entities","modeName":"tube","lineIdentifier":["bakerloo","central","victoria"]}],"status":true,"id":"940GZZLUOXC","commonName":"Oxford
         Circus Underground Station","distance":147.70533261648208,"placeType":"StopPoint","additionalProperties":[{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Lifts","sourceSystemKey":"StaticObjects","value":"0"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Address","key":"PhoneNo","sourceSystemKey":"StaticObjects","value":"0845
-        330 9880"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities","category":"Facility","key":"WiFi","sourceSystemKey":"StaticObjects","value":"yes"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Geo","key":"Zone","sourceSystemKey":"StaticObjects","value":"1"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Bridge","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Gates","sourceSystemKey":"StaticObjects","value":"30"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Payphones","sourceSystemKey":"StaticObjects","value":"3"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Photo Booths","sourceSystemKey":"StaticObjects","value":"0"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Cash Machines","sourceSystemKey":"StaticObjects","value":"3"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Toilets","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Car park","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Escalators","sourceSystemKey":"StaticObjects","value":"14"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Euro Cash Machines","sourceSystemKey":"StaticObjects","value":"yes"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Ticket Halls","sourceSystemKey":"StaticObjects","value":"2"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Address","key":"Address","sourceSystemKey":"StaticObjects","value":"Oxford
-        Circus Station,London Underground Ltd.,Oxford St,London,W1B 3AG"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Other Facilities","sourceSystemKey":"StaticObjects","value":"canopies
-        over platform, routeways platform to ticket hall."},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Waiting Room","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Help Points","sourceSystemKey":"StaticObjects","value":"18
-        on platforms, 0 in ticket halls, 18 elsewhere"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
         Tfl.Api.Presentation.Entities","category":"Accessibility","key":"AccessViaLift","sourceSystemKey":"LRAD","value":"No"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
         Tfl.Api.Presentation.Entities","category":"Accessibility","key":"BlueBadgeCarParkSpaces","sourceSystemKey":"LRAD","value":"0"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
         Tfl.Api.Presentation.Entities","category":"Accessibility","key":"LimitedCapacityLift","sourceSystemKey":"LRAD","value":"No"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
         Tfl.Api.Presentation.Entities","category":"Accessibility","key":"TaxiRankOutsideStation","sourceSystemKey":"LRAD","value":"No"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Accessibility","key":"Toilet","sourceSystemKey":"LRAD","value":"No"}],"children":[{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","category":"Accessibility","key":"Toilet","sourceSystemKey":"LRAD","value":"No"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Address","key":"Address","sourceSystemKey":"StaticObjects","value":"Oxford
+        Circus Station,London Underground Ltd.,Oxford St,London,W1B 3AG"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Bridge","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Cash Machines","sourceSystemKey":"StaticObjects","value":"3"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Car park","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Escalators","sourceSystemKey":"StaticObjects","value":"14"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Euro Cash Machines","sourceSystemKey":"StaticObjects","value":"yes"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Gates","sourceSystemKey":"StaticObjects","value":"30"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Help Points","sourceSystemKey":"StaticObjects","value":"18
+        on platforms, 0 in ticket halls, 18 elsewhere"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Waiting Room","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"WiFi","sourceSystemKey":"StaticObjects","value":"yes"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Other Facilities","sourceSystemKey":"StaticObjects","value":"canopies
+        over platform, routeways platform to ticket hall."},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Geo","key":"Zone","sourceSystemKey":"StaticObjects","value":"1"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Address","key":"PhoneNo","sourceSystemKey":"StaticObjects","value":"0845
+        330 9880"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities","category":"Facility","key":"Photo
+        Booths","sourceSystemKey":"StaticObjects","value":"0"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Ticket Halls","sourceSystemKey":"StaticObjects","value":"2"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Payphones","sourceSystemKey":"StaticObjects","value":"3"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Toilets","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Lifts","sourceSystemKey":"StaticObjects","value":"0"}],"children":[{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
         Tfl.Api.Presentation.Entities","naptanId":"490G00173OQ","modes":["bus"],"stopType":"NaptanOnstreetBusCoachStopCluster","stationNaptan":"490G00173OQ","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"490G00173OQ","commonName":"Oxford
         Circus Station","placeType":"StopPoint","additionalProperties":[],"children":[{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
         Tfl.Api.Presentation.Entities","naptanId":"490000173AP","indicator":"Stop
@@ -206,26 +203,25 @@ http_interactions:
         Tfl.Api.Presentation.Entities","modeName":"bus","lineIdentifier":["159","23","6","7","98","n7","n98"]},{"$type":"Tfl.Api.Presentation.Entities.LineModeGroup,
         Tfl.Api.Presentation.Entities","modeName":"tube","lineIdentifier":["central","jubilee"]}],"status":true,"id":"940GZZLUBND","commonName":"Bond
         Street Underground Station","distance":403.48258984823457,"placeType":"StopPoint","additionalProperties":[{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Address","key":"PhoneNo","sourceSystemKey":"StaticObjects","value":"0845
-        330 9880"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities","category":"Facility","key":"Waiting
-        Room","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Lifts","sourceSystemKey":"StaticObjects","value":"0"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"WiFi","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Cash Machines","sourceSystemKey":"StaticObjects","value":"2"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Ticket Halls","sourceSystemKey":"StaticObjects","value":"1"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Geo","key":"Zone","sourceSystemKey":"StaticObjects","value":"1"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Photo Booths","sourceSystemKey":"StaticObjects","value":"0"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Car park","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Gates","sourceSystemKey":"StaticObjects","value":"12"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Help Points","sourceSystemKey":"StaticObjects","value":"0
-        on platforms, 0 in ticket halls, 0 elsewhere"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Payphones","sourceSystemKey":"StaticObjects","value":"2"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
-        Tfl.Api.Presentation.Entities","category":"Facility","key":"Toilets","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
         Tfl.Api.Presentation.Entities","category":"Address","key":"Address","sourceSystemKey":"StaticObjects","value":"Bond
         Street Station,London Underground Ltd.,Oxford St,London,W1R 1FE"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
         Tfl.Api.Presentation.Entities","category":"Facility","key":"Bridge","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Car park","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Cash Machines","sourceSystemKey":"StaticObjects","value":"2"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Help Points","sourceSystemKey":"StaticObjects","value":"0
+        on platforms, 0 in ticket halls, 0 elsewhere"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
         Tfl.Api.Presentation.Entities","category":"Facility","key":"Escalators","sourceSystemKey":"StaticObjects","value":"8"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Lifts","sourceSystemKey":"StaticObjects","value":"0"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
         Tfl.Api.Presentation.Entities","category":"Facility","key":"Euro Cash Machines","sourceSystemKey":"StaticObjects","value":"yes"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Gates","sourceSystemKey":"StaticObjects","value":"12"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Payphones","sourceSystemKey":"StaticObjects","value":"2"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Toilets","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Waiting Room","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"WiFi","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Photo Booths","sourceSystemKey":"StaticObjects","value":"0"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Ticket Halls","sourceSystemKey":"StaticObjects","value":"1"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Address","key":"PhoneNo","sourceSystemKey":"StaticObjects","value":"0845
+        330 9880"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities","category":"Geo","key":"Zone","sourceSystemKey":"StaticObjects","value":"1"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
         Tfl.Api.Presentation.Entities","category":"Facility","key":"Other Facilities","sourceSystemKey":"StaticObjects","value":"canopies
         over platform, subway to street."}],"children":[{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
         Tfl.Api.Presentation.Entities","naptanId":"490G00025BV","modes":["bus"],"stopType":"NaptanOnstreetBusCoachStopCluster","stationNaptan":"940GZZLUBND","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"490G00025BV","commonName":"Bond
@@ -265,5 +261,271 @@ http_interactions:
         Tfl.Api.Presentation.Entities","naptanId":"9400ZZLUBND3","modes":[],"icsCode":"1000025","stationNaptan":"940GZZLUBND","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"9400ZZLUBND3","commonName":"Bond
         Street Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":0.0,"lon":0.0}],"lat":51.514309,"lon":-0.149719}]}'
     http_version: 
-  recorded_at: Wed, 02 Dec 2015 22:33:40 GMT
+  recorded_at: Tue, 08 Dec 2015 13:55:35 GMT
+- request:
+    method: get
+    uri: https://api.tfl.gov.uk/StopPoint?app_id=&app_key=&lat=51.5152117&lon=-0.1440493&modes=tube&radius=500&returnLines=True&stopTypes=NaptanMetroStation&useStopPointHierarchy=True
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.tfl.gov.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Headers:
+      - Content-Type
+      Access-Control-Allow-Methods:
+      - GET,POST,PUT,DELETE,OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Age:
+      - '0'
+      Api-Entity-Payload:
+      - StopPoint
+      Cache-Control:
+      - public, must-revalidate, max-age=43200, s-maxage=86400
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 08 Dec 2015 13:58:48 GMT
+      Server:
+      - Microsoft-IIS/8.5
+      Via:
+      - 1.1 varnish
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Backend:
+      - api
+      X-Backend-Url:
+      - "/StopPoint?lat=51.515&lon=-0.144&stopTypes=NaptanMetroStation&radius=500&useStopPointHierarchy=True&returnLines=True&modes=tube"
+      X-Banning:
+      - ''
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+      X-Cacheable:
+      - Yes. Cacheable
+      X-Hash-Url:
+      - "/stoppoint?lat=51.515&lon=-0.144&modes=tube&radius=500&returnlines=true&stoptypes=naptanmetrostation&usestoppointhierarchy=true"
+      X-Ttl:
+      - '86400.000'
+      X-Ttl-Rule:
+      - '0'
+      X-Varnish:
+      - 10.75.3.51
+      - 1145427050 1145426825
+      Content-Length:
+      - '2494'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"$type":"Tfl.Api.Presentation.Entities.StopPointsResponse, Tfl.Api.Presentation.Entities","centrePoint":[51.515,-0.144],"stopPoints":[{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"940GZZLUOXC","modes":["tube","bus"],"icsCode":"1000173","stopType":"NaptanMetroStation","stationNaptan":"940GZZLUOXC","lines":[{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"12","name":"12","uri":"/Line/12","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"13","name":"13","uri":"/Line/13","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"137","name":"137","uri":"/Line/137","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"159","name":"159","uri":"/Line/159","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"189","name":"189","uri":"/Line/189","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"23","name":"23","uri":"/Line/23","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"55","name":"55","uri":"/Line/55","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"6","name":"6","uri":"/Line/6","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"88","name":"88","uri":"/Line/88","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"94","name":"94","uri":"/Line/94","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"bakerloo","name":"Bakerloo","uri":"/Line/bakerloo","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"c2","name":"C2","uri":"/Line/c2","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"central","name":"Central","uri":"/Line/central","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"n109","name":"N109","uri":"/Line/n109","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"n113","name":"N113","uri":"/Line/n113","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"n13","name":"N13","uri":"/Line/n13","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"n136","name":"N136","uri":"/Line/n136","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"n137","name":"N137","uri":"/Line/n137","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"n18","name":"N18","uri":"/Line/n18","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"n3","name":"N3","uri":"/Line/n3","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"n55","name":"N55","uri":"/Line/n55","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"victoria","name":"Victoria","uri":"/Line/victoria","type":"Line"}],"lineGroup":[{"$type":"Tfl.Api.Presentation.Entities.LineGroup,
+        Tfl.Api.Presentation.Entities","naptanIdReference":"490000173RC","stationAtcoCode":"490000173RC","lineIdentifier":["12","159","88","94","c2","n3"]},{"$type":"Tfl.Api.Presentation.Entities.LineGroup,
+        Tfl.Api.Presentation.Entities","naptanIdReference":"490000173RG","stationAtcoCode":"490000173RG","lineIdentifier":["13","159","23","6","94","c2","n109","n113","n13","n136","n18"]},{"$type":"Tfl.Api.Presentation.Entities.LineGroup,
+        Tfl.Api.Presentation.Entities","naptanIdReference":"490000173Z","stationAtcoCode":"490000173Z","lineIdentifier":["137","189","n137"]},{"$type":"Tfl.Api.Presentation.Entities.LineGroup,
+        Tfl.Api.Presentation.Entities","naptanIdReference":"490000173AP","stationAtcoCode":"490000173AP","lineIdentifier":["55","n109","n136","n55"]},{"$type":"Tfl.Api.Presentation.Entities.LineGroup,
+        Tfl.Api.Presentation.Entities","stationAtcoCode":"940GZZLUOXC","lineIdentifier":["bakerloo"]},{"$type":"Tfl.Api.Presentation.Entities.LineGroup,
+        Tfl.Api.Presentation.Entities","stationAtcoCode":"940GZZLUOXC","lineIdentifier":["central"]},{"$type":"Tfl.Api.Presentation.Entities.LineGroup,
+        Tfl.Api.Presentation.Entities","stationAtcoCode":"940GZZLUOXC","lineIdentifier":["victoria"]}],"lineModeGroups":[{"$type":"Tfl.Api.Presentation.Entities.LineModeGroup,
+        Tfl.Api.Presentation.Entities","modeName":"bus","lineIdentifier":["12","13","137","159","189","23","55","6","88","94","c2","n109","n113","n13","n136","n137","n18","n3","n55"]},{"$type":"Tfl.Api.Presentation.Entities.LineModeGroup,
+        Tfl.Api.Presentation.Entities","modeName":"tube","lineIdentifier":["bakerloo","central","victoria"]}],"status":true,"id":"940GZZLUOXC","commonName":"Oxford
+        Circus Underground Station","distance":147.70533261648208,"placeType":"StopPoint","additionalProperties":[{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Accessibility","key":"AccessViaLift","sourceSystemKey":"LRAD","value":"No"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Accessibility","key":"BlueBadgeCarParkSpaces","sourceSystemKey":"LRAD","value":"0"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Accessibility","key":"LimitedCapacityLift","sourceSystemKey":"LRAD","value":"No"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Accessibility","key":"TaxiRankOutsideStation","sourceSystemKey":"LRAD","value":"No"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Accessibility","key":"Toilet","sourceSystemKey":"LRAD","value":"No"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Address","key":"Address","sourceSystemKey":"StaticObjects","value":"Oxford
+        Circus Station,London Underground Ltd.,Oxford St,London,W1B 3AG"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Bridge","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Cash Machines","sourceSystemKey":"StaticObjects","value":"3"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Car park","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Escalators","sourceSystemKey":"StaticObjects","value":"14"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Euro Cash Machines","sourceSystemKey":"StaticObjects","value":"yes"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Gates","sourceSystemKey":"StaticObjects","value":"30"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Help Points","sourceSystemKey":"StaticObjects","value":"18
+        on platforms, 0 in ticket halls, 18 elsewhere"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Waiting Room","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"WiFi","sourceSystemKey":"StaticObjects","value":"yes"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Other Facilities","sourceSystemKey":"StaticObjects","value":"canopies
+        over platform, routeways platform to ticket hall."},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Geo","key":"Zone","sourceSystemKey":"StaticObjects","value":"1"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Address","key":"PhoneNo","sourceSystemKey":"StaticObjects","value":"0845
+        330 9880"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities","category":"Facility","key":"Photo
+        Booths","sourceSystemKey":"StaticObjects","value":"0"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Ticket Halls","sourceSystemKey":"StaticObjects","value":"2"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Payphones","sourceSystemKey":"StaticObjects","value":"3"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Toilets","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Lifts","sourceSystemKey":"StaticObjects","value":"0"}],"children":[{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"490G00173OQ","modes":["bus"],"stopType":"NaptanOnstreetBusCoachStopCluster","stationNaptan":"490G00173OQ","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"490G00173OQ","commonName":"Oxford
+        Circus Station","placeType":"StopPoint","additionalProperties":[],"children":[{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"490000173AP","indicator":"Stop
+        AP","stopLetter":"AP","modes":["bus"],"icsCode":"1000173","stopType":"NaptanPublicBusCoachTram","stationNaptan":"490000173AP","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"490000173AP","commonName":"Oxford
+        Circus","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.514466,"lon":-0.144322},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"490000173Z","indicator":"Stop OH","stopLetter":"OH","modes":["bus"],"icsCode":"1000173","stopType":"NaptanPublicBusCoachTram","stationNaptan":"490000173Z","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"490000173Z","commonName":"Oxford
+        Circus Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.515292,"lon":-0.143655}],"lat":51.515292,"lon":-0.143655},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"490G00173RG","modes":["bus"],"icsCode":"1000173","stopType":"NaptanOnstreetBusCoachStopCluster","stationNaptan":"490G00173RG","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"490G00173RG","commonName":"Oxford
+        Circus Station","placeType":"StopPoint","additionalProperties":[],"children":[{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"490000173RC","indicator":"Stop
+        RC","stopLetter":"RC","modes":["bus"],"icsCode":"1000173","stopType":"NaptanPublicBusCoachTram","stationNaptan":"490000173RC","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"490000173RC","commonName":"Oxford
+        Circus Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.514491,"lon":-0.141914},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"490000173RG","indicator":"Stop
+        RG","stopLetter":"RG","modes":["bus"],"icsCode":"1000173","stopType":"NaptanPublicBusCoachTram","stationNaptan":"490000173RG","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"490000173RG","commonName":"Oxford
+        Circus Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.514595,"lon":-0.141665},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"490010678LB","indicator":"Stop
+        RH","stopLetter":"RH","modes":["bus"],"icsCode":"1000173","stopType":"NaptanPublicBusCoachTram","stationNaptan":"490G00173RG","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"490010678LB","commonName":"Oxford
+        Circus","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.514087,"lon":-0.141383}],"lat":51.514087,"lon":-0.141383},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"9400ZZLUOXC","modes":["tube"],"icsCode":"1000173","stopType":"NaptanMetroAccessArea","stationNaptan":"940GZZLUOXC","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"9400ZZLUOXC","commonName":"Oxford
+        Circus Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.515228,"lon":-0.141899},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"4900ZZLUOXC1","indicator":"Entrance
+        1","stopLetter":"1","modes":["tube"],"icsCode":"1000173","stopType":"NaptanMetroEntrance","stationNaptan":"940GZZLUOXC","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"4900ZZLUOXC1","commonName":"Oxford
+        Circus Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.515377,"lon":-0.142167},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"4900ZZLUOXC2","indicator":"Entrance
+        2","stopLetter":"2","modes":["tube"],"icsCode":"1000173","stopType":"NaptanMetroEntrance","stationNaptan":"940GZZLUOXC","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"4900ZZLUOXC2","commonName":"Oxford
+        Circus Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.515336,"lon":-0.141851},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"4900ZZLUOXC3","indicator":"Entrance
+        3","stopLetter":"3","modes":["tube"],"icsCode":"1000173","stopType":"NaptanMetroEntrance","stationNaptan":"940GZZLUOXC","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"4900ZZLUOXC3","commonName":"Oxford
+        Circus Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.515171,"lon":-0.142276},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"4900ZZLUOXC4","indicator":"Entrance
+        4","stopLetter":"4","modes":["tube"],"icsCode":"1000173","stopType":"NaptanMetroEntrance","stationNaptan":"940GZZLUOXC","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"4900ZZLUOXC4","commonName":"Oxford
+        Circus Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.51513,"lon":-0.141917},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"4900ZZLUOXC5","indicator":"Entrance
+        5","stopLetter":"5","modes":["tube"],"icsCode":"1000173","stopType":"NaptanMetroEntrance","stationNaptan":"940GZZLUOXC","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"4900ZZLUOXC5","commonName":"Oxford
+        Circus Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.515234,"lon":-0.141135},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"4900ZZLUOXC6","indicator":"Entrance
+        6","stopLetter":"6","modes":["tube"],"icsCode":"1000173","stopType":"NaptanMetroEntrance","stationNaptan":"940GZZLUOXC","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"4900ZZLUOXC6","commonName":"Oxford
+        Circus Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.51525,"lon":-0.141538},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"4900ZZLUOXC7","indicator":"Entrance
+        7","stopLetter":"7","modes":["tube"],"icsCode":"1000173","stopType":"NaptanMetroEntrance","stationNaptan":"940GZZLUOXC","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"4900ZZLUOXC7","commonName":"Oxford
+        Circus Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.515007,"lon":-0.140985},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"4900ZZLUOXC8","indicator":"Entrance
+        8","stopLetter":"8","modes":["tube"],"icsCode":"1000173","stopType":"NaptanMetroEntrance","stationNaptan":"940GZZLUOXC","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"4900ZZLUOXC8","commonName":"Oxford
+        Circus Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.515332,"lon":-0.141073},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"4900ZZLUOXC9","indicator":"Entrance
+        9","stopLetter":"9","modes":["tube"],"icsCode":"1000173","stopType":"NaptanMetroEntrance","stationNaptan":"940GZZLUOXC","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"4900ZZLUOXC9","commonName":"Oxford
+        Circus Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.515963,"lon":-0.142287},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"9400ZZLUOXC3","modes":[],"icsCode":"1000173","stationNaptan":"940GZZLUOXC","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"9400ZZLUOXC3","commonName":"Oxford
+        Circus Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":0.0,"lon":0.0},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"9400ZZLUOXC4","modes":[],"icsCode":"1000173","stationNaptan":"940GZZLUOXC","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"9400ZZLUOXC4","commonName":"Oxford
+        Circus Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":0.0,"lon":0.0},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"9400ZZLUOXC1","modes":[],"icsCode":"1000173","stationNaptan":"940GZZLUOXC","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"9400ZZLUOXC1","commonName":"Oxford
+        Circus Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":0.0,"lon":0.0},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"9400ZZLUOXC5","modes":[],"icsCode":"1000173","stationNaptan":"940GZZLUOXC","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"9400ZZLUOXC5","commonName":"Oxford
+        Circus Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":0.0,"lon":0.0},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"9400ZZLUOXC2","modes":[],"icsCode":"1000173","stationNaptan":"940GZZLUOXC","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"9400ZZLUOXC2","commonName":"Oxford
+        Circus Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":0.0,"lon":0.0},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"9400ZZLUOXC6","modes":[],"icsCode":"1000173","stationNaptan":"940GZZLUOXC","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"9400ZZLUOXC6","commonName":"Oxford
+        Circus Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":0.0,"lon":0.0}],"lat":51.515228,"lon":-0.141899},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"940GZZLUBND","modes":["bus","tube"],"icsCode":"1000025","stopType":"NaptanMetroStation","stationNaptan":"940GZZLUBND","lines":[{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"159","name":"159","uri":"/Line/159","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"23","name":"23","uri":"/Line/23","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"6","name":"6","uri":"/Line/6","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"7","name":"7","uri":"/Line/7","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"98","name":"98","uri":"/Line/98","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"central","name":"Central","uri":"/Line/central","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"jubilee","name":"Jubilee","uri":"/Line/jubilee","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"n7","name":"N7","uri":"/Line/n7","type":"Line"},{"$type":"Tfl.Api.Presentation.Entities.Identifier,
+        Tfl.Api.Presentation.Entities","id":"n98","name":"N98","uri":"/Line/n98","type":"Line"}],"lineGroup":[{"$type":"Tfl.Api.Presentation.Entities.LineGroup,
+        Tfl.Api.Presentation.Entities","naptanIdReference":"490000025BW","stationAtcoCode":"490000025BW","lineIdentifier":["159","23","6","7","98","n7","n98"]},{"$type":"Tfl.Api.Presentation.Entities.LineGroup,
+        Tfl.Api.Presentation.Entities","stationAtcoCode":"940GZZLUBND","lineIdentifier":["central"]},{"$type":"Tfl.Api.Presentation.Entities.LineGroup,
+        Tfl.Api.Presentation.Entities","stationAtcoCode":"940GZZLUBND","lineIdentifier":["jubilee"]}],"lineModeGroups":[{"$type":"Tfl.Api.Presentation.Entities.LineModeGroup,
+        Tfl.Api.Presentation.Entities","modeName":"bus","lineIdentifier":["159","23","6","7","98","n7","n98"]},{"$type":"Tfl.Api.Presentation.Entities.LineModeGroup,
+        Tfl.Api.Presentation.Entities","modeName":"tube","lineIdentifier":["central","jubilee"]}],"status":true,"id":"940GZZLUBND","commonName":"Bond
+        Street Underground Station","distance":403.48258984823457,"placeType":"StopPoint","additionalProperties":[{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Address","key":"Address","sourceSystemKey":"StaticObjects","value":"Bond
+        Street Station,London Underground Ltd.,Oxford St,London,W1R 1FE"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Bridge","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Car park","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Cash Machines","sourceSystemKey":"StaticObjects","value":"2"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Help Points","sourceSystemKey":"StaticObjects","value":"0
+        on platforms, 0 in ticket halls, 0 elsewhere"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Escalators","sourceSystemKey":"StaticObjects","value":"8"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Lifts","sourceSystemKey":"StaticObjects","value":"0"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Euro Cash Machines","sourceSystemKey":"StaticObjects","value":"yes"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Gates","sourceSystemKey":"StaticObjects","value":"12"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Payphones","sourceSystemKey":"StaticObjects","value":"2"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Toilets","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Waiting Room","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"WiFi","sourceSystemKey":"StaticObjects","value":"no"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Photo Booths","sourceSystemKey":"StaticObjects","value":"0"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Ticket Halls","sourceSystemKey":"StaticObjects","value":"1"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Address","key":"PhoneNo","sourceSystemKey":"StaticObjects","value":"0845
+        330 9880"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities","category":"Geo","key":"Zone","sourceSystemKey":"StaticObjects","value":"1"},{"$type":"Tfl.Api.Presentation.Entities.AdditionalProperties,
+        Tfl.Api.Presentation.Entities","category":"Facility","key":"Other Facilities","sourceSystemKey":"StaticObjects","value":"canopies
+        over platform, subway to street."}],"children":[{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"490G00025BV","modes":["bus"],"stopType":"NaptanOnstreetBusCoachStopCluster","stationNaptan":"940GZZLUBND","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"490G00025BV","commonName":"Bond
+        Street","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.514309,"lon":-0.149719},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"490G00025BW","modes":["bus"],"stopType":"NaptanOnstreetBusCoachStopCluster","stationNaptan":"490G00025BW","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"490G00025BW","commonName":"Bond
+        Street Station","placeType":"StopPoint","additionalProperties":[],"children":[{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"490000025BW","indicator":"Stop
+        BW","stopLetter":"BW","modes":["bus"],"icsCode":"1000025","stopType":"NaptanPublicBusCoachTram","stationNaptan":"490000025BW","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"490000025BW","commonName":"Bond
+        Street Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.514267,"lon":-0.149879}],"lat":51.514267,"lon":-0.149879},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"9400ZZLUBND","modes":["tube"],"icsCode":"1000025","stopType":"NaptanMetroAccessArea","stationNaptan":"940GZZLUBND","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"9400ZZLUBND","commonName":"Bond
+        Street Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.514309,"lon":-0.149719},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"4900ZZLUBND1","indicator":"Entrance
+        1","stopLetter":"1","modes":["tube"],"icsCode":"1000025","stopType":"NaptanMetroEntrance","stationNaptan":"940GZZLUBND","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"4900ZZLUBND1","commonName":"Bond
+        Street Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.514525,"lon":-0.149134},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"4900ZZLUBND2","indicator":"Entrance
+        2","stopLetter":"2","modes":["tube"],"icsCode":"1000025","stopType":"NaptanMetroEntrance","stationNaptan":"940GZZLUBND","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"4900ZZLUBND2","commonName":"Bond
+        Street Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.514395,"lon":-0.148894},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"4900ZZLUBND3","indicator":"Entrance
+        3","stopLetter":"3","modes":["tube"],"icsCode":"1000025","stopType":"NaptanMetroEntrance","stationNaptan":"940GZZLUBND","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"4900ZZLUBND3","commonName":"Bond
+        Street Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.514366,"lon":-0.149328},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"4900ZZLUBND4","indicator":"Entrance
+        4","stopLetter":"4","modes":["tube"],"icsCode":"1000025","stopType":"NaptanMetroEntrance","stationNaptan":"940GZZLUBND","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"4900ZZLUBND4","commonName":"Bond
+        Street Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.513782,"lon":-0.149928},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"4900ZZLUBND5","indicator":"Entrance
+        5","stopLetter":"5","modes":["tube"],"icsCode":"1000025","stopType":"NaptanMetroEntrance","stationNaptan":"940GZZLUBND","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"4900ZZLUBND5","commonName":"Bond
+        Street Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.514047,"lon":-0.149095},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"4900ZZLUBND6","indicator":"Entrance
+        6","stopLetter":"6","modes":["tube"],"icsCode":"1000025","stopType":"NaptanMetroEntrance","stationNaptan":"940GZZLUBND","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"4900ZZLUBND6","commonName":"Bond
+        Street Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.514335,"lon":-0.14966},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"4900ZZLUBND7","indicator":"Entrance
+        7","stopLetter":"7","modes":["tube"],"icsCode":"1000025","stopType":"NaptanMetroEntrance","stationNaptan":"940GZZLUBND","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"4900ZZLUBND7","commonName":"Bond
+        Street Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":51.514415,"lon":-0.147351},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"9400ZZLUBND1","modes":[],"icsCode":"1000025","stationNaptan":"940GZZLUBND","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"9400ZZLUBND1","commonName":"Bond
+        Street Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":0.0,"lon":0.0},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"9400ZZLUBND2","modes":[],"icsCode":"1000025","stationNaptan":"940GZZLUBND","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"9400ZZLUBND2","commonName":"Bond
+        Street Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":0.0,"lon":0.0},{"$type":"Tfl.Api.Presentation.Entities.StopPoint,
+        Tfl.Api.Presentation.Entities","naptanId":"9400ZZLUBND3","modes":[],"icsCode":"1000025","stationNaptan":"940GZZLUBND","lines":[],"lineGroup":[],"lineModeGroups":[],"status":true,"id":"9400ZZLUBND3","commonName":"Bond
+        Street Underground Station","placeType":"StopPoint","additionalProperties":[],"children":[],"lat":0.0,"lon":0.0}],"lat":51.514309,"lon":-0.149719}]}'
+    http_version: 
+  recorded_at: Tue, 08 Dec 2015 13:55:35 GMT
 recorded_with: VCR 2.9.3

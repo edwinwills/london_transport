@@ -12,6 +12,8 @@ class LondonTransport::Base
 
   def stations(limit = 3)
     distances = []
+    return distances unless nearest
+
     nearest['stopPoints'][0..limit - 1].each do |station|
       distances << { station['commonName'] => station['distance'] }
     end
