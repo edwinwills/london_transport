@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'london_transport'
-  s.version     = '0.0.4'
+  s.version     = '0.0.5'
   s.date        = '2015-12-02'
   s.summary     = "Wrapper for the TFL API"
   s.description = "Wrapper for the TFL API"
