@@ -18,15 +18,24 @@ Find the nearest tube stations from a long/lat value:
 transport = LondonTransport::Tube.new(longitude: -0.1440493, latitude: 51.5152117)
 ```
 
-`transport.stations` will then return an array of the nearest 3 tube stations and their distances (in metres) to this point, within 500m
+`transport.stations` will then return an array of the nearest 3 tube
+stations containing a hash with their their distances (in metres) and lines,
+to the point specified, within 500m.
 
 ```ruby
 [
-    [0] {
-        "Oxford Circus Underground Station" => 147.70533261648208
+    {
+      "Oxford Circus Underground Station" => {
+        distance: => 147.70533261648208
+        modes: ["tube"],
+        lines: ["bakerloo", "central", "victoria"]
     },
-    [1] {
-        "Bond Street Underground Station" => 403.48258984823457
+    {
+      "Bond Street Underground Station" => {
+        distance: 403.48258984823457,
+        modes: ["tube"],
+        lines: ["central", "jubilee"]
+      }
     }
 ]
 ```
