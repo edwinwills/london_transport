@@ -21,7 +21,7 @@ class LondonTransport::Base
       distances << {
         station['commonName'] => {
           distance: station['distance'],
-          modes: self.class::MODES || station['modes'],
+          modes: self.class::MODES.any? ? self.class::MODES : station['modes'],
           lines: line.names
         }
       }
