@@ -7,7 +7,11 @@ RSpec.describe LondonTransport::Tube do
     it 'returns oxford circus' do
       VCR.use_cassette("tube/stations") do
         expect(subject.stations[0]).to eq({
-          'Oxford Circus Underground Station' => 147.70533261648208
+          'Oxford Circus Underground Station' => {
+            distance: 147.70533261648208,
+            modes: ['tube'],
+            lines: ['bakerloo', 'central', 'victoria']
+          }
         })
       end
     end
@@ -15,7 +19,11 @@ RSpec.describe LondonTransport::Tube do
     it 'returns bond street' do
       VCR.use_cassette("tube/stations") do
         expect(subject.stations[1]).to eq({
-          'Bond Street Underground Station' => 403.48258984823457
+          'Bond Street Underground Station' => {
+            distance: 403.48258984823457,
+            modes: ['tube'],
+            lines: ['central', 'jubilee']
+          }
         })
       end
     end

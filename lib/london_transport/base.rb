@@ -3,6 +3,7 @@ class LondonTransport::Base
   API_ENDPOINT = "https://api.tfl.gov.uk/StopPoint"
   STOP_TYPES = []
   MODES = []
+  AVAILABLE_MODES_OF_TRANSPORT = ['bus', 'train', 'tube']
 
   def initialize(longitude:, latitude:, radius: 500)
     @longitude = longitude
@@ -15,7 +16,15 @@ class LondonTransport::Base
     return distances unless nearest
 
     nearest['stopPoints'][0..limit - 1].each do |station|
-      distances << { station['commonName'] => station['distance'] }
+      line = LondonTransport::Line.new(station['lineModeGroups'])
+
+      distances << {
+        station['commonName'] => {
+          distance: station['distance'],
+          modes: self.class::MODES || station['modes'],
+          lines: line.names
+        }
+      }
     end
 
     distances
@@ -35,7 +44,6 @@ class LondonTransport::Base
   end
 
   def nearest
-    Oj.load(Net::HTTP.get(api_endpoint))
+    Oj.load(::Net::HTTP.get(api_endpoint))
   end
-
 end
