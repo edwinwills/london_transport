@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
   s.name        = 'london_transport'
-  s.version     = '0.0.7'
-  s.date        = '2015-12-02'
+  s.version     = '0.0.8'
+  s.date        = '2015-12-13'
   s.summary     = "Wrapper for the TFL API"
-  s.description = "Wrapper for the TFL API"
+  s.description = "Uses the TFL API to return simple, useful station/stop data based around a long/lat pair"
   s.authors     = ["Edwin Wills"]
   s.email       = 'edwin@edwinwills.com'
   s.homepage    = 'http://rubygems.org/gems/london_transport'
