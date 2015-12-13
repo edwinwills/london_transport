@@ -26,7 +26,7 @@ to the point specified, within 500m.
 [
     {
       "Oxford Circus Underground Station" => {
-        distance: => 147.70533261648208
+        distance: => 147.70533261648208,
         modes: ["tube"],
         lines: ["bakerloo", "central", "victoria"]
     },
