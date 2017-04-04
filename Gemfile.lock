@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    london_transport (0.0.8)
-      oj (~> 2.13)
+    london_transport (1.0.0)
+      oj (>= 2.13, < 3.0)
 
 GEM
   remote: https://rubygems.org/
@@ -41,4 +41,4 @@ DEPENDENCIES
   webmock (~> 1)
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
