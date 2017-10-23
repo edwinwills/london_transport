@@ -1,5 +1,4 @@
 class LondonTransport::Base
-
   API_ENDPOINT = "https://api.tfl.gov.uk/StopPoint"
   STOP_TYPES = []
   MODES = []
@@ -20,7 +19,7 @@ class LondonTransport::Base
 
       distances << {
         station['commonName'] => {
-          distance: station['distance'],
+          distance: BigDecimal.new(station['distance'].to_s).to_f.round(15),
           modes: self.class::MODES.any? ? self.class::MODES : station['modes'],
           lines: line.names
         }
@@ -31,6 +30,7 @@ class LondonTransport::Base
   end
 
   private
+
   def api_endpoint
     URI("#{API_ENDPOINT}?lat=#{@latitude}&lon=#{@longitude}&stopTypes=#{stop_types}&radius=#{@radius}&useStopPointHierarchy=True&returnLines=True&modes=#{modes}&app_id=#{LondonTransport.app_id}&app_key=#{LondonTransport.app_key}")
   end
