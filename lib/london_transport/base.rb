@@ -20,7 +20,7 @@ class LondonTransport::Base
 
       distances << {
         station['commonName'] => {
-          distance: station['distance'],
+          distance: station['distance'].round(14),
           modes: self.class::MODES.any? ? self.class::MODES : station['modes'],
           lines: line.names
         }
