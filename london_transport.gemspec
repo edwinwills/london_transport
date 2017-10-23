@@ -15,4 +15,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec', '~> 3'
   s.add_development_dependency 'webmock', '~> 3'
   s.add_development_dependency 'vcr', '~> 3'
+  s.add_development_dependency 'rake', '~> 12'
 end
