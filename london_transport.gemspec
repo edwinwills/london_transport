@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'london_transport'
-  s.version     = '2.0.0'
-  s.date        = '2017-10-23'
+  s.version     = '2.0.1'
+  s.date        = '2020-08-20'
   s.summary     = 'Wrapper for the TFL API'
   s.description = 'Uses the TFL API to return simple, useful station/stop data based around a long/lat pair'
   s.authors     = ['Edwin Wills']
