@@ -19,7 +19,7 @@ class LondonTransport::Base
 
       distances << {
         station['commonName'] => {
-          distance: BigDecimal.new(station['distance'].to_s).to_f.round(15),
+          distance: BigDecimal(station['distance'].to_s).to_f.round(15),
           modes: self.class::MODES.any? ? self.class::MODES : station['modes'],
           lines: line.names
         }
